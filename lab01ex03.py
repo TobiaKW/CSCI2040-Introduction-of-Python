@@ -52,7 +52,15 @@ elif choice == 3:
     smirror = ['NA'] * len(s)
     for i in range(len(s)):
         smirror[i] = s[len(s)-i-1]
+<<<<<<< HEAD
     ##print("".join(smirror))
+=======
+<<<<<<< HEAD
+    print("".join(smirror))
+=======
+    ##print("".join(smirror))
+>>>>>>> 8a7f2f8 (updated)
+>>>>>>> b807e14 (updated)
     s = s + ['|'] + smirror
 elif choice == 4:
     scollapse =['NA'] * len(s)

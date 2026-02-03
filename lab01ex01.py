@@ -42,8 +42,17 @@ for i in range(26):
     #print(i, presence[i])
 
 for i in range(5):
+<<<<<<< HEAD
     if slow.count(vowel[i])>=1:
         ##print("counted", i)
+=======
+<<<<<<< HEAD
+    if slow.count(low[i])>=1:
+=======
+    if slow.count(vowel[i])>=1:
+        ##print("counted", i)
+>>>>>>> 8a7f2f8 (updated)
+>>>>>>> b807e14 (updated)
         countc = countc + 1
 
 fnrl = '#'
